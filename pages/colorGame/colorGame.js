@@ -72,6 +72,14 @@ Page({
         spColor:spBgColor,
         round:thisData.round
       })
+      if(thisData.round>100){
+        wx.showModal({
+          title:'提示',
+          content:'恭喜您通过',
+          cancelColor: "#DD8800",
+        })
+        this.init();
+      }
     }else{
       wx.showModal({
         title:'提示',
@@ -91,7 +99,8 @@ Page({
     if(offsetindex<=0){
       offsetindex = 1;
     }
-    let offsetColor = Math.floor(Math.random()*(offsetindex*2+1)-offsetindex);
+    //let offsetColor = Math.floor(Math.random()*(offsetindex*2+1)-offsetindex);
+    let offsetColor = offsetindex;
     let resColor = offsetColor + color;
     if(resColor<0){
       resColor=0;
