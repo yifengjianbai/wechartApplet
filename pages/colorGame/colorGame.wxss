@@ -9,7 +9,6 @@
   border-radius: 1rem;
   box-shadow: 5rpx 5rpx 5rpx 5rpx gray;
 }
-
 .flex-item-spe {
   height: 150rpx;
   width: 150rpx;

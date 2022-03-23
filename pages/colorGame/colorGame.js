@@ -83,7 +83,7 @@ Page({
     }else{
       wx.showModal({
         title:'提示',
-        content:'挑战失败',
+        content:'挑战失败，当前关数第'+thisData.round+'关',
         cancelColor: "#DD8800",
       })
       this.setData({
