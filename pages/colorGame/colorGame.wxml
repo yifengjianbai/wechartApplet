@@ -1,0 +1,7 @@
+<view class="title">
+  <text>第{{round}}关</text>
+</view>
+<view class="flex-wrp" style="flex-direction:row;" wx:for="{{rowData}}" wx:for-item="r">
+    <view class="flex-item" wx:for="{{r.column}}" wx:for-item="c" style="background-color: {{c}};" bindtap="tapBlock" data-color="{{c}}">
+    </view>
+</view>

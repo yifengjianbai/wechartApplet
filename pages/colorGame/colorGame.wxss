@@ -1,0 +1,29 @@
+.flex-wrp{
+  display:flex;
+  justify-content: center;
+}
+.flex-item {
+  height: 150rpx;
+  width: 150rpx;
+  margin: 10rpx;
+  border-radius: 1rem;
+  box-shadow: 5rpx 5rpx 5rpx 5rpx gray;
+}
+
+.flex-item-spe {
+  height: 150rpx;
+  width: 150rpx;
+  margin: 10rpx;
+  border-radius: 1rem;
+}
+.title {
+  height: 100%;
+  width: 100%;
+  margin-top:50rpx;
+  margin-bottom:40rpx;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: 400;
+  color: blueviolet;
+}
