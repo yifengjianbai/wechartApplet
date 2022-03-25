@@ -36,9 +36,9 @@
     "useIsolateContext": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.9.4",
-  "appid": "wx470720af95de967e",
-  "projectname": "miniprogram-1",
+  "libVersion": "2.19.6",
+  "appid": "wx58e572956b1ea04f",
+  "projectname": "yyOne-Minite",
   "debugOptions": {
     "hidedInDevtools": []
   },

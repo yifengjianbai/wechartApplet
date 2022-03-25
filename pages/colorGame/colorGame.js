@@ -101,6 +101,9 @@ Page({
     }
     //let offsetColor = Math.floor(Math.random()*(offsetindex*2+1)-offsetindex);
     let offsetColor = offsetindex;
+    if(Math.random()>0.5){
+      offsetColor = offsetColor*-1;
+    }
     let resColor = offsetColor + color;
     if(resColor<0){
       resColor=0;
