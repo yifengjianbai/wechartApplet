@@ -1,7 +1,18 @@
-<view class="title">
+<view class="title" style="color: rgb(69, 165, 13);">
   <text>第{{round}}关</text>
 </view>
 <view class="flex-wrp" style="flex-direction:row;" wx:for="{{rowData}}" wx:for-item="r">
     <view class="flex-item" wx:for="{{r.column}}" wx:for-item="c" style="background-color: {{c}};" bindtap="tapBlock" data-color="{{c}}">
     </view>
+</view>
+
+<view class="title">
+  <text style="color: darkorange;">{{second}}</text>
+</view>
+<view class="progress-box">
+    <progress percent="{{percent}}" active="{{flag}}" stroke-width="10" border-radius="5" duration="50" backgroundColor="#17aa17" activeColor="#dfdfdf" bindactiveend="endTime" />
+</view>
+
+<view class="title">
+  <text style="color: royalblue;">当前得分：{{score}}</text>
 </view>

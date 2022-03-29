@@ -9,12 +9,6 @@
   border-radius: 1rem;
   box-shadow: 5rpx 5rpx 5rpx 5rpx gray;
 }
-.flex-item-spe {
-  height: 150rpx;
-  width: 150rpx;
-  margin: 10rpx;
-  border-radius: 1rem;
-}
 .title {
   height: 100%;
   width: 100%;
@@ -24,5 +18,13 @@
   justify-content: center;
   font-size: large;
   font-weight: 400;
-  color: blueviolet;
+}
+progress{
+  width: 80%;
+}
+.progress-box{
+  display: flex;
+  height: 25px;
+  margin: 20px 0 20px 0;
+  justify-content: center;
 }
