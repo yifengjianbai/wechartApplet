@@ -1,7 +1,7 @@
 // app.js
 App({
   onLaunch() {
-    // 展示本地缓存
+    // 本地缓存
     const logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
